@@ -34,15 +34,12 @@ export default async function Home() {
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Name/Value
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                Type
-              </th>
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
             {globalThis.SST_KEY_FILE_DATA ? (
               Object.entries(globalThis.SST_KEY_FILE_DATA).map(
-                ([key, { name, value, type }]) => (
+                ([key, { name, value }]) => (
                   <tr key={key}>
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                       {key}
