@@ -13,6 +13,406 @@ declare module "sst" {
       "type": "sst.sst.Secret"
       "value": string
     }
+    "MySecret_1": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_10": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_100": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_11": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_12": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_13": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_14": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_15": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_16": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_17": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_18": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_19": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_2": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_20": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_21": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_22": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_23": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_24": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_25": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_26": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_27": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_28": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_29": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_3": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_30": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_31": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_32": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_33": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_34": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_35": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_36": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_37": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_38": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_39": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_4": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_40": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_41": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_42": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_43": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_44": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_45": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_46": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_47": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_48": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_49": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_5": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_50": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_51": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_52": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_53": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_54": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_55": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_56": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_57": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_58": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_59": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_6": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_60": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_61": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_62": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_63": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_64": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_65": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_66": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_67": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_68": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_69": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_7": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_70": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_71": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_72": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_73": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_74": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_75": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_76": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_77": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_78": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_79": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_8": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_80": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_81": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_82": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_83": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_84": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_85": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_86": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_87": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_88": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_89": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_9": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_90": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_91": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_92": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_93": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_94": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_95": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_96": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_97": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_98": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_99": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
     "MyWeb": {
       "type": "sst.aws.Nextjs"
       "url": string

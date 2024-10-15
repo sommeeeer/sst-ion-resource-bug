@@ -17,14 +17,14 @@ export default async function Home() {
   const bucket = Resource.MyBucket.name;
 
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="flex flex-col gap-12 items-center p-10">
       <div>this is my bucket: {bucket}</div>
       <div className="text-4xl text-green-500">
         it took{' '}
         <span className="font-bold">{globalThis.THDXR ?? 'NOT KNOWN'}</span> ms
         to decrypt
       </div>
-      <div className="bg-gray-100 p-4 rounded-md shadow-md">
+      <div className="bg-gray-100 p-4 rounded-md shadow-md max-h-[600px] overflow-y-scroll mt-12">
         <table className="min-w-full divide-y divide-gray-200">
           <thead className="bg-gray-50">
             <tr>
@@ -49,9 +49,6 @@ export default async function Home() {
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                       {name ?? value ?? 'N/A'}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {type}
                     </td>
                   </tr>
                 )
