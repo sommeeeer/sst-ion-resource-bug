@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in {51..100}; do
+for i in {1..100}; do
   SECRET_NAME="MySecret_$i"
   RANDOM_STRING=$(openssl rand -base64 24)
   
