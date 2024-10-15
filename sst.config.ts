@@ -10,12 +10,16 @@ export default $config({
   },
   async run() {
     const secret = new sst.Secret("MySecret");
+    let secrets: sst.Secret[] = [];
+    for (let i = 1; i <= 100; i++) {
+      secrets.push(new sst.Secret(`MySecret_${i}`));
+    }
     const bucket = new sst.aws.Bucket("MyBucket");
 
     new sst.aws.Nextjs("MyWeb",
       {
-        link: [secret, bucket],
-        buildCommand: 'npx @opennextjs/aws@3.1.4 build'
+        link: [secret, bucket, ...secrets],
+        buildCommand: 'npx @opennextjs/aws@3.1.4 build',
       }
     );
   },
