@@ -22,7 +22,7 @@ export default async function Home() {
       <div className="text-4xl text-green-500">
         it took{' '}
         <span className="font-bold">{globalThis.THDXR ?? 'NOT KNOWN'}</span> ms
-        to decrypt
+        to decrypt {Object.keys(globalThis.SST_KEY_FILE_DATA ?? {}).length} keys  
       </div>
       <div className="bg-gray-100 p-4 rounded-md shadow-md max-h-[600px] overflow-y-scroll mt-12">
         <table className="min-w-full divide-y divide-gray-200">
