@@ -1,6 +1,5 @@
 if (process.env.SST_KEY_FILE) {
-  const fullStart = new Date();
-  const startImports = performance.now();
+  const fullStart = performance.now();
   const { readFileSync } = await import('fs');
   const { createDecipheriv } = await import('crypto');
   const endImports = performance.now();
@@ -21,7 +20,7 @@ if (process.env.SST_KEY_FILE) {
   const endDecryption = performance.now();
   const fullEnd = performance.now();
   const finish = fullEnd - fullStart;
-  const imports = endImports - startImports;
+  const imports = endImports - fullStart;
   const decryption = endDecryption - startDecryption;
   const file = endFile - startFile;
   console.log('it all took:', finish);
