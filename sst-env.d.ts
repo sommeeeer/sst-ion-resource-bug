@@ -25,7 +25,83 @@ declare module "sst" {
       "type": "sst.sst.Secret"
       "value": string
     }
+    "MySecret_101": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_102": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_103": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_104": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_105": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_106": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_107": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_108": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_109": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
     "MySecret_11": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_110": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_111": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_112": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_113": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_114": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_115": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_116": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_117": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_118": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_119": {
       "type": "sst.sst.Secret"
       "value": string
     }
@@ -33,7 +109,87 @@ declare module "sst" {
       "type": "sst.sst.Secret"
       "value": string
     }
+    "MySecret_120": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_121": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_122": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_123": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_124": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_125": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_126": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_127": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_128": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_129": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
     "MySecret_13": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_130": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_131": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_132": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_133": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_134": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_135": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_136": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_137": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_138": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_139": {
       "type": "sst.sst.Secret"
       "value": string
     }
@@ -41,7 +197,87 @@ declare module "sst" {
       "type": "sst.sst.Secret"
       "value": string
     }
+    "MySecret_140": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_141": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_142": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_143": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_144": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_145": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_146": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_147": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_148": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_149": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
     "MySecret_15": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_150": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_151": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_152": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_153": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_154": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_155": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_156": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_157": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_158": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_159": {
       "type": "sst.sst.Secret"
       "value": string
     }
@@ -49,7 +285,87 @@ declare module "sst" {
       "type": "sst.sst.Secret"
       "value": string
     }
+    "MySecret_160": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_161": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_162": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_163": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_164": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_165": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_166": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_167": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_168": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_169": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
     "MySecret_17": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_170": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_171": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_172": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_173": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_174": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_175": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_176": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_177": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_178": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_179": {
       "type": "sst.sst.Secret"
       "value": string
     }
@@ -57,7 +373,87 @@ declare module "sst" {
       "type": "sst.sst.Secret"
       "value": string
     }
+    "MySecret_180": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_181": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_182": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_183": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_184": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_185": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_186": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_187": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_188": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_189": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
     "MySecret_19": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_190": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_191": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_192": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_193": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_194": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_195": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_196": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_197": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_198": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_199": {
       "type": "sst.sst.Secret"
       "value": string
     }
@@ -66,6 +462,10 @@ declare module "sst" {
       "value": string
     }
     "MySecret_20": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
+    "MySecret_200": {
       "type": "sst.sst.Secret"
       "value": string
     }

@@ -11,7 +11,7 @@ export default $config({
   async run() {
     const secret = new sst.Secret("MySecret");
     let secrets: sst.Secret[] = [];
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 1; i <= 200; i++) {
       secrets.push(new sst.Secret(`MySecret_${i}`));
     }
     const bucket = new sst.aws.Bucket("MyBucket");
