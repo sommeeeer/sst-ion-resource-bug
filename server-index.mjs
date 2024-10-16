@@ -1,7 +1,7 @@
 if (process.env.SST_KEY_FILE) {
   const fullStart = performance.now();
-const { readFileSync } = await import('fs');
-const { createDecipheriv } = await import('crypto');
+  const { readFileSync } = await import('fs');
+  const { createDecipheriv } = await import('crypto');
   const endImports = performance.now();
   const key = Buffer.from(process.env.SST_KEY, 'base64');
   const encryptedData = readFileSync(process.env.SST_KEY_FILE);
