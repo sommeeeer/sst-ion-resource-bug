@@ -1,10 +1,8 @@
 if (process.env.SST_KEY_FILE) {
   const fullStart = performance.now();
-  const { readFileSync } = await import('fs');
-  const { createDecipheriv } = await import('crypto');
+const { readFileSync } = await import('fs');
+const { createDecipheriv } = await import('crypto');
   const endImports = performance.now();
-  const startDecryption = performance.now();
-  const startFile = performance.now();
   const key = Buffer.from(process.env.SST_KEY, 'base64');
   const encryptedData = readFileSync(process.env.SST_KEY_FILE);
   const endFile = performance.now();
@@ -18,11 +16,10 @@ if (process.env.SST_KEY_FILE) {
   const decryptedData = JSON.parse(decrypted.toString());
   globalThis.SST_KEY_FILE_DATA = decryptedData;
   const endDecryption = performance.now();
-  const fullEnd = performance.now();
-  const finish = fullEnd - fullStart;
+  const finish = endDecryption - fullStart;
   const imports = endImports - fullStart;
-  const decryption = endDecryption - startDecryption;
-  const file = endFile - startFile;
+  const decryption = endDecryption - endImports;
+  const file = endFile - endImports;
   console.log('it all took:', finish);
   console.log('imports:', imports);
   console.log('decryption:', decryption);

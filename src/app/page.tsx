@@ -28,7 +28,7 @@ export default async function Home() {
       <div className="text-4xl text-green-500">
         it took{' '}
         <span className="font-bold">
-          {thdxr.finish.toFixed(2) ?? 'NOT KNOWN'}
+          {thdxr?.finish ? thdxr.finish.toFixed(2) : 'NOT KNOWN'}
         </span>{' '}
         ms to decrypt {Object.keys(globalThis.SST_KEY_FILE_DATA ?? {}).length}{' '}
         keys
@@ -38,19 +38,19 @@ export default async function Home() {
         <div className="text-sm text-green-700 flex gap-4">
           Imports:{' '}
           <span className="italic ml-auto">
-            {thdxr.imports.toFixed(2) ?? 'n/a'} ms
+            {thdxr?.imports ? thdxr.imports.toFixed(2) : 'n/a'} ms
           </span>
         </div>
         <div className="text-sm text-green-700 flex gap-4">
           Decryption:{' '}
           <span className="italic ml-auto">
-            {thdxr.decryption.toFixed(2) ?? 'n/a'} ms
+            {thdxr?.decryption ? thdxr.decryption.toFixed(2) : 'n/a'} ms
           </span>
         </div>
         <div className="text-sm text-green-700 flex">
           File:{' '}
           <span className="italic ml-auto">
-            {thdxr.file.toFixed(2) ?? 'n/a'} ms
+            {thdxr?.file ? thdxr.file.toFixed(2) : 'n/a'} ms
           </span>
         </div>
       </div>
@@ -69,18 +69,24 @@ export default async function Home() {
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Name/Value
               </th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Type
+              </th>
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
             {globalThis.SST_KEY_FILE_DATA ? (
               Object.entries(globalThis.SST_KEY_FILE_DATA).map(
-                ([key, { name, value }]) => (
+                ([key, { name, value, type }]) => (
                   <tr key={key}>
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                       {key}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                       {name ?? value ?? 'N/A'}
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                      {type}
                     </td>
                   </tr>
                 )
